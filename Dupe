@@ -21,7 +21,7 @@ local Tab = Window:MakeTab({
 Tab:AddButton({
 	Name = "GEM DUPE💎",
 	Callback = function()
-	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/GUISHIT'),true))()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/solesirenz/PSX/main/PSXNewDupe'),true))()
       		print("button pressed")
   	end    
 })
@@ -29,7 +29,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "PET DUPE!💵",
 	Callback = function()
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/PETSIMXNEWDUPE"))()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/solesirenz/PSX/main/PSXDupe"))()
       		print("button pressed")
   	end    
 })
@@ -37,7 +37,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "PET DUPE OTHER METHOD!🐶",
 	Callback = function()
-	    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/PetSimXdupe"))()
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/solesirenz/PSX/main/PSXNewDupe"))()
       		print("button pressed")
   	end    
 })
@@ -45,7 +45,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "CLICK BEFORE HITTING DUPE THEN ALT TAB📢",
 	Callback = function()
-	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZloppyS/PetSimXDupe/main/GUISHITT'),true))()
+	    loadstring(game:HttpGet(('https://raw.githubusercontent.com/solesirenz/PSX/main/PSXNewDupe'),true))()
       		print("button pressed")
   	end    
 })

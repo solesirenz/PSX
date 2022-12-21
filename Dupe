@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/solesirenz/PSX/main/Dupe')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/solesirenz/PSX/main/Autofarm')))()
 local Window = OrionLib:MakeWindow({Name = "(ZLOPPYHUB) [🎄 EVENT] Pet Simulator X!", HidePremium = false, IntroEnabled = false,SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --Values
